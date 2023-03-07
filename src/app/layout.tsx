@@ -22,7 +22,9 @@ export default function RootLayout({
       <body>
         <div className={clsx('flex flex-row w-[1000px] mx-auto mt-[151px]', gothic_A1.className)}>
           <Sidebar />
-          <main>{children}</main>
+          <main className='flex flex-grow w-full'>
+            {children}
+          </main>
         </div>
       </body>
     </html>
