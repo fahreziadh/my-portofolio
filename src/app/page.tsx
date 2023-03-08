@@ -1,4 +1,4 @@
-import CardBio from "@/components/cardBio";
+import CardBio from "@/components/card-bio";
 import Link from "next/link";
 
 export default function Home() {
